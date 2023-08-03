@@ -53,7 +53,7 @@ class Vector
 };
 int main()
 {
-    int n = 10;
+    int n = 3;
     Vector v(n);
     for (int i = 0; i < n; i++)
     {
@@ -64,3 +64,17 @@ int main()
     v.print();
 }
 
+
+
+
+/*
+Problem #1: Right rotation
+Consider our Vector class.Add the member function : void right_rotate()
+The function shifts every element 1 step towards the right.
+What about the rightmost element ? It goes to the first idx
+Example
+Assume the array content is : 0 1 2 3 4
+After a right rotation it will be : 4 0 1 2 3
+Notice how, in this case, the '4' has been rotated to the head of the array!
+Ensure you avoid expanding the array's capacity
+*/
