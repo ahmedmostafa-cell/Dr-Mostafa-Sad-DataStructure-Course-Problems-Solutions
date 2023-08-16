@@ -44,6 +44,30 @@ public:
 		}
 
 	}
+	void right_rotatebyNewArray(int step_number)
+	{
+
+		int rotate_no = step_number % size;
+		int* arr2 = new int[capacity] {};
+		for (int i = 0; i < size; ++i)
+		{
+			if((i+ rotate_no)<size) 
+			{
+				arr2[i + rotate_no] = arr[i];
+			}
+			else 
+			{
+				arr2[(i + rotate_no)-size] = arr[i];
+			}
+			
+				
+
+		}
+		swap(arr2, arr);
+		delete[]arr2;
+		
+
+	}
 	void print()
 	{
 		for (int i = 0; i < size; ++i)
@@ -64,7 +88,7 @@ public:
 };
 int main()
 {
-	int n = 6;
+	int n = 5;
 	Vector v(n);
 	for (int i = 0; i < n; ++i)
 	{
@@ -72,7 +96,8 @@ int main()
 
 	}
 	v.print();
-	v.right_rotate(5);
+	//v.right_rotate(9);
+	v.right_rotatebyNewArray(10);
 	v.print();
 
 

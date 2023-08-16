@@ -1,3 +1,0 @@
-﻿  Test.cpp
-D:\Data Structure And Algorithms Course\RepositoryOfSolutions\DataStructureCourse\Test\Test\Test.cpp(56): warning C4715: 'Vector::find': not all control paths return a value
-  Test.vcxproj -> D:\Data Structure And Algorithms Course\RepositoryOfSolutions\DataStructureCourse\Test\x64\Debug\Test.exe
