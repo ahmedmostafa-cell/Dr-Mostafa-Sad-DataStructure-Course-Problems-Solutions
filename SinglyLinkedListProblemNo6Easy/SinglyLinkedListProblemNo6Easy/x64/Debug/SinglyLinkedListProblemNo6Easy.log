@@ -1,0 +1,3 @@
+﻿  SinglyLinkedListProblemNo6Easy.cpp
+D:\Data Structure And Algorithms Course\RepositoryOfSolutions\DataStructureCourse\SinglyLinkedListProblemNo6Easy\SinglyLinkedListProblemNo6Easy\SinglyLinkedListProblemNo6Easy.cpp(402): warning C4715: 'Linked_List::get_tail': not all control paths return a value
+  SinglyLinkedListProblemNo6Easy.vcxproj -> D:\Data Structure And Algorithms Course\RepositoryOfSolutions\DataStructureCourse\SinglyLinkedListProblemNo6Easy\x64\Debug\SinglyLinkedListProblemNo6Easy.exe
